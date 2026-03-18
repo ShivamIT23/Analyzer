@@ -5,7 +5,7 @@ export default function Stats({numOfCharacter , numOfWords}) {
     <section className="stats">
       <Stat num={numOfWords} label='Words'/>
       <Stat num={numOfCharacter} label='Characters'/>
-      <Stat num={X_MAX_CHAR - numOfCharacter} label='X'/>
+      <Stat num={X_MAX_CHAR - numOfCharacter} label='Twitter/X'/>
       <Stat num={FACEBOOK_MAX_CHAR - numOfCharacter} label='Facebook'/>
     </section>
   );
